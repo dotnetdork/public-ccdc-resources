@@ -1,6 +1,6 @@
 module red-baron-edr
 
-go 1.23.4
+go 1.25.0
 
 require (
 	github.com/BurntSushi/toml v1.4.0
@@ -13,7 +13,7 @@ require (
 	github.com/kardianos/service v1.2.2
 	github.com/kubearmor/KubeArmor/protobuf v0.0.0-20250125074919-9656a7f609ec
 	github.com/shirou/gopsutil v3.21.11+incompatible
-	google.golang.org/grpc v1.70.0
+	google.golang.org/grpc v1.83.2
 	gorm.io/gorm v1.25.12
 )
 
@@ -39,7 +39,7 @@ require (
 	github.com/muesli/ansi v0.0.0-20230316100256-276c6243b2f6 // indirect
 	github.com/muesli/cancelreader v0.2.2 // indirect
 	github.com/muesli/termenv v0.15.2 // indirect
-	github.com/redis/go-redis/v9 v9.7.0 // indirect
+	github.com/redis/go-redis/v9 v9.7.3 // indirect
 	github.com/rivo/uniseg v0.4.7 // indirect
 	github.com/robfig/cron/v3 v3.0.1 // indirect
 	github.com/sahilm/fuzzy v0.1.1 // indirect
@@ -48,11 +48,11 @@ require (
 	github.com/tklauser/numcpus v0.8.0 // indirect
 	github.com/yusufpapurcu/wmi v1.2.4 // indirect
 	golang.org/x/exp v0.0.0-20231006140011-7918f672742d // indirect
-	golang.org/x/net v0.34.0 // indirect
-	golang.org/x/sync v0.10.0 // indirect
-	golang.org/x/sys v0.29.0 // indirect
-	golang.org/x/text v0.21.0 // indirect
+	golang.org/x/net v0.58.0 // indirect
+	golang.org/x/sync v0.22.0 // indirect
+	golang.org/x/sys v0.47.0 // indirect
+	golang.org/x/text v0.41.0 // indirect
 	golang.org/x/time v0.8.0 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20250115164207-1a7da9e5054f // indirect
-	google.golang.org/protobuf v1.36.3 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20260526163538-3dc84a4a5aaa // indirect
+	google.golang.org/protobuf v1.36.11 // indirect
 )
